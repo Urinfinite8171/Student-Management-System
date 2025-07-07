@@ -5,6 +5,7 @@ import WhyChooseUs from "./InnovationS/SMS/Features/WhyChooseUs";
 import Footer from "./InnovationS/SMS/Footer/Footer";
 import Header from "./InnovationS/SMS/Header/Header";
 import Pricing from "./InnovationS/SMS/Features/Pricing";
+import RequestDemo from "./InnovationS/SMS/Features/RequestDemo";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/why-choose-us" element={<WhyChooseUs />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/request-demo" element={<RequestDemo />} />
       </Routes>
 
       <Footer />

@@ -93,7 +93,7 @@ export default function Header() {
           {/* Request Demo Button */}
           <li>
             <a
-              href="/demo"
+              href="/request-demo"
               className="inline-block rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 px-5 py-2 text-sm font-semibold text-white shadow-md transition-transform hover:scale-105 hover:shadow-lg focus:outline-none"
             >
               Request Demo
@@ -151,7 +151,7 @@ export default function Header() {
             {/* Mobile Request Demo */}
             <li>
               <a
-                href="#demo"
+                href="/request-demo"
                 className="mt-2 block rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 px-4 py-2 text-center text-sm font-semibold text-white shadow-md"
               >
                 Request Demo
