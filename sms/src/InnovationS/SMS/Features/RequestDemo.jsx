@@ -43,9 +43,9 @@ const RequestDemo = () => {
     if (!/^[a-zA-Z0-9._%+-]+@(gmail\.com|yahoo\.com)$/.test(form.email.trim()))
       e.email = "Only Gmail or Yahoo address allowed";
 
-    if (!/^\d{10}$/.test(form.phone.trim()))
-      e.phone = "Phone must be 10 digits";
-
+    if (!/^[6-9]\d{9}$/.test(form.phone.trim())) {
+      e.phone = "Phone number must be 10 digits/Start with 6, 7, 8, or 9";
+    }
     if (!form.orgName.trim())
       e.orgName = `${orgType || "Organization"} name required`;
     else if (!/^[A-Za-z.]+(?: [A-Za-z.]+)*$/.test(form.orgName.trim()))
