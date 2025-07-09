@@ -231,7 +231,7 @@ const RequestDemo = () => {
             {/* Volume */}
             <div className="flex gap-2">
               <div className="flex-1">
-                <label className="mb-1 block font-semibold">From Class</label>
+                <label className="mb-1 block font-semibold">Class</label>
                 <input
                   name="volStart"
                   value={form.volStart}
@@ -244,7 +244,7 @@ const RequestDemo = () => {
                 />
               </div>
               <div className="flex-1">
-                <label className="mb-1 block font-semibold">To Class</label>
+                <label className="mb-1 block font-semibold">Class</label>
                 <input
                   name="volEnd"
                   value={form.volEnd}
